@@ -54,8 +54,8 @@ F --> G[AuthenticationManager]
 1. **Clone the repository**
 ```
 
-git clone https://github.com/yourusername/ecommerce-springmvc-jwt.git
-cd ecommerce-springmvc-jwt
+git clone https://github.com/arjunbhadran/secure-commerce.git
+cd secure-commerce
 
 ```
 

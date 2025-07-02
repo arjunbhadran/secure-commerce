@@ -1,6 +1,4 @@
 # secure-commerce
-```markdown
-# E-Commerce Application
 
 A robust and secure e-commerce web application built with **Spring MVC** and **Spring Security** using **JWT (JSON Web Token)** for stateless authentication.
 
@@ -10,7 +8,7 @@ A robust and secure e-commerce web application built with **Spring MVC** and **S
 - **JWT-based Authentication & Authorization**
 - **Role-based Access Control (User/Admin)**
 - **Product Catalog Management (CRUD)**
-- **Shopping Cart & Order Management**
+- **Order Management**
 - **Secure RESTful APIs**
 - **Password Encryption with BCrypt**
 - **MVC Architecture**
@@ -22,12 +20,11 @@ A robust and secure e-commerce web application built with **Spring MVC** and **S
 - **Spring Security**
 - **JWT (io.jsonwebtoken)**
 - **Hibernate/JPA**
-- **MySQL/PostgreSQL**
+- **PostgreSQL**
 - **Maven**
 
 ## Architecture Overview
 
-```
 
 graph TD
 A[Client (React/Angular/JS)] -->|HTTP| B[Spring MVC Controller]
@@ -37,7 +34,6 @@ D --> E[(Database)]
 B --> F[Spring Security JWT Filter]
 F --> G[AuthenticationManager]
 
-```
 
 ## Security
 
